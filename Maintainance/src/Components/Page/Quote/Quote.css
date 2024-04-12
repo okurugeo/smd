@@ -1,0 +1,52 @@
+.quotepage {
+  padding: 30px;
+  background: white;
+  width: 60%;
+  margin: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 15px;
+}
+.quotepage input,
+select {
+  padding: 5px;
+  width: 60%;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  height: 45px;
+}
+.quotepage label {
+  font-weight: bold;
+}
+.select {
+  width: 90%;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+.select ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin: 10px;
+
+  width: 100%;
+}
+.select ul li {
+  padding: 10px;
+  border-radius: 3px;
+  flex: 1;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .quotepage {
+    width: 100%;
+    margin: auto;
+  }
+}

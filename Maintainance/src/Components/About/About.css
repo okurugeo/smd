@@ -1,0 +1,8 @@
+.about {
+  /* background: url("../../images/dotted.jpg"); */
+  background: url("https://static.zawya.com/version/c:MzQ1MGZhZTItMjM3Yi00:MjI1ODkz/1316754718.webp?f=3%3A2&q=0.75&w=3840") no-repeat;
+  background-size: cover;
+}
+.about {
+  padding: 30px;
+}
